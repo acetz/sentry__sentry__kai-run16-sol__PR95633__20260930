@@ -1,0 +1,27 @@
+{
+  "run_tag": "run16-sol",
+  "created_at": "2026-09-30T17:10:19Z",
+  "created_by": "acetz",
+  "stages": {
+    "quick_draft": {
+      "model": "anthropic/claude-haiku-4-5",
+      "effort": "off"
+    },
+    "quick_factcheck": {
+      "model": "z-ai/glm-5.2",
+      "effort": "off"
+    },
+    "main": {
+      "model": "claude-sonnet-5-5",
+      "effort": "off"
+    },
+    "sweep": {
+      "model": "claude-sonnet-5-5",
+      "effort": "off"
+    },
+    "factcheck": {
+      "model": "openai/gpt-5.6-sol",
+      "effort": "medium"
+    }
+  }
+}
